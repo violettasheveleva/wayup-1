@@ -9,6 +9,7 @@ div, p, input, button, form, span, a, ul, li {
     box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;;
     margin: 0;
 }
 .container {
@@ -29,4 +30,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 .screen {
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 145px;
+    /* margin-top: 60px; */
+}
+.offer {
+    margin-top: 150px;
+    width: 580px;
+}
+h1 {
+    font-size: 37px;
+    line-height: 49px;
+}
+h1 span {
+    font-size: 59px;
+    line-height: 73px;
+}
+.text {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 45;
+    width: 420px;
+}
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background: #ffd429;
+    color: #2e2a1b;
+    display: block
+    width: 222px;
+    padding: 17px;
+    text-align: center;
+    text-decoration: none;
 }
